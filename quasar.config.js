@@ -8,7 +8,6 @@
 // Configuration for your app
 // https://v2.quasar.dev/quasar-cli-vite/quasar-config-js
 
-
 const { configure } = require('quasar/wrappers'); // 從 Quasar 套件中載入 configure 函式。
 const path = require('path'); // 引入 Node.js 的 path 模組，用於處理檔案路徑。
 
@@ -66,7 +65,7 @@ module.exports = configure(function (/* ctx */) {
 
       // rebuildCache: true, // rebuilds Vite/linter/etc cache on startup
 
-      // publicPath: '/',
+      publicPath: '/quasar',
       // analyze: true,
       // env: {},
       // rawDefine: {}
@@ -77,7 +76,7 @@ module.exports = configure(function (/* ctx */) {
 
       // 編輯 viteConf 即可修改 Vite 配置
       // extendViteConf (viteConf) {},
-      
+
       // viteVuePluginOptions: {},
 
       vitePlugins: [
