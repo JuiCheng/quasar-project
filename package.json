@@ -16,6 +16,7 @@
     "test:unit:ci": "vitest run"
   },
   "dependencies": {
+    "@arcgis/core": "^4.30.9",
     "@quasar/extras": "^1.16.12",
     "axios": "^1.7.7",
     "pinia": "^2.2.2",
