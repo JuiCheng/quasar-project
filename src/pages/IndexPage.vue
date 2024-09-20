@@ -1,5 +1,9 @@
 <template>
-
+  <q-img
+    src="icons/favicon-128x128.png"
+    spinner-color="white"
+    style="height: 140px; max-width: 150px"
+  />
   <q-page class="row items-center justify-evenly">
     <example-component
       title="Example component"
@@ -16,7 +20,6 @@ import { Todo, Meta } from 'components/models';
 import ExampleComponent from 'components/ExampleComponent.vue';
 import { useTokenStore } from 'stores/useTokenStore';
 const store = useTokenStore();
-
 store.update('123456');
 defineOptions({
   name: 'IndexPage',

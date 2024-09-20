@@ -9,6 +9,8 @@
     "./node_modules",
     "./src-capacitor",
     "./src-cordova",
-    "./quasar.config.*.temporary.compiled*"
+    "./test",
+    "./quasar.config.*.temporary.compiled*",
+    "./vitest.config.mts"
   ]
 }
