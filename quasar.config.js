@@ -54,7 +54,7 @@ module.exports = configure(function (/* ctx */) {
     build: {
       // 構建相關配置，包括目標瀏覽器、Vue Router 模式等。
       target: {
-        browser: ['es2019', 'edge88', 'firefox78', 'chrome87', 'safari13.1'],
+        browser: ['es2020', 'edge92', 'firefox85', 'chrome90', 'safari14'],
         node: 'node20',
       },
 
